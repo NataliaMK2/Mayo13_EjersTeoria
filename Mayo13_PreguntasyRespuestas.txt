@@ -1,0 +1,27 @@
+a. ¿Qué son los FormControl,FormGroup?
+
+FormControl
+Realiza un seguimiento del valor y el estado de validación de un control de formulario individual.
+FormGroup
+Realiza un seguimiento de los mismos valores y estado para una colección de controles de formulario
+
+
+b ¿Cómo se detectan los cambios en los formularios reactivos?(subscribirse)
+A través del observable, donde puede escuchar los cambios en el valor del formulario en la plantilla usando o en la clase de componente usando el método subscribe()
+
+
+c¿Cómo se vinculan los formularios reactivos con la interfaz de usuario Angular? 
+mediante directivas y observables.
+
+d ¿Cómo se envían los datos del formulario reactivo a un servidor en Angular?
+servicio HTTP
+
+e Pará que sirve el operador reactivo Switchmap
+cancela suscripciones antiguas y cambia a nuevos observables, ayudando a evitar el procesamiento de datos obsoletos.
+
+
+
+
+
+
+
